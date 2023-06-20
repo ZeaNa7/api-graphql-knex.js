@@ -1,0 +1,39 @@
+type Style {
+    idStyle: String!
+    libelle: String
+    description: String
+}
+
+type Artiste {
+    IdArtiste: String!
+    pseudo: String
+    idStyle: String
+}
+
+type Concert {
+    idConcert: String!
+    dateConcert: String
+    nbrPlaceDisponible: Int
+    idVille: String
+}
+
+type Visiteur {
+    idVisiteur: String!
+    nom: String
+    prenom: String
+    email: String
+    age: String
+    adresse: String
+    idParrain: String
+    idVille: String
+}
+
+type Query {
+    getAllStyles: [Style]
+    getAllArtistes: [Artiste]
+    getAllConcerts: [Concert]
+    getVisiteursFromVille(ville: String!): [Visiteur]
+    getConcertsFromVille(ville: String!): [Concert]
+    getArtistConcerts(artistName: String!): [Concert]
+    getConcertsFromStyle(ville: String!, styleName: String!): [Concert]
+}
