@@ -17,4 +17,4 @@ This is an Graphql API built with Node.js and Express.js that uses the ORM Knex.
 ## Usage
 
 This API is used to interact with a MariaDB database. It can be used to create, read, update, and delete data from the database.
-Use localhost:3000/graphql as the base URL for all requests.
+Use localhost:3000 as the base URL for all requests.
