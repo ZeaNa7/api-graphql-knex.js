@@ -7,11 +7,11 @@ This is an Graphql API built with Node.js and Express.js that uses the ORM Knex.
 1. Clone this repo
 2. Run `npm install`
 3. Create a `.env` file in the root directory and add the following variables:
-    - `DB_HOST`
-    - `DB_USER`
-    - `DB_PASSWORD`
-    - `DB_NAME` 
-    - `DB_PORT`
+    - DB_NAME=liveAddict
+    - DB_HOST=127.0.0.1
+    - DB_USER=root
+    - DB_PASSWORD=rootpwd
+    - DB_PORT=4000
 4. Run `npm start` to start the server
 
 ## Usage
