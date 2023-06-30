@@ -18,3 +18,13 @@ This is an Graphql API built with Node.js and Express.js that uses the ORM Knex.
 
 This API is used to interact with a MariaDB database. It can be used to create, read, update, and delete data from the database.
 Use localhost:3000 as the base URL for all requests.
+
+## Tests
+
+Run the command `npm test` to run tests.
+
+## Alter table
+
+To alter a table, go to the folder sql and run de command `node alter-table.js`.
+
+

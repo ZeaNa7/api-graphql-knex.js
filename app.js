@@ -2,7 +2,7 @@ import express from 'express';
 import { importSchema } from "graphql-import";
 import { makeExecutableSchema } from "graphql-tools";
 import { graphqlHTTP } from "express-graphql";
-import resolvers from "./resolvers.js";
+import resolvers from "./resolvers/resolvers.js";
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import path from 'path';
